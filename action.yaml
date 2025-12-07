@@ -15,5 +15,5 @@ runs:
   post-if: success()
 
 branding:
-  icon: 'activity'
+  icon: 'play-circle'
   color: 'blue'  

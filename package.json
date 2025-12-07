@@ -10,7 +10,7 @@
         "format-check": "prettier --no-error-on-unmatched-pattern --config ./.prettierrc.js --check \"**/*.{ts,yml,yaml}\"",
         "lint": "eslint --config ./.eslintrc.js \"**/*.ts\"",
         "lint:fix": "eslint --config ./.eslintrc.js \"**/*.ts\" --fix",
-        "test": "jest --coverage --passWithNoTests"
+        "test": "jest --coverage"
     },
     "keywords": [
         "kustomizegen",
@@ -28,13 +28,13 @@
         "@actions/exec": "^1.1.1",
         "@actions/http-client": "^2.1.0",
         "@actions/io": "^1.1.3",
-        "@actions/tool-cache": "^2.0.1",
-        "tar-fs": "^3.0.4"
+        "@actions/tool-cache": "^2.0.1"
     },
     "devDependencies": {
         "@types/jest": "^29.5.3",
         "@types/node": "^20.4.5",
         "@types/tar-fs": "^2.0.1",
+        "tar-fs": "^3.0.4",
         "@typescript-eslint/eslint-plugin": "^6.2.0",
         "@typescript-eslint/parser": "^6.2.0",
         "@vercel/ncc": "^0.36.1",
